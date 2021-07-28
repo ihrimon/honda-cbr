@@ -1,0 +1,34 @@
+*{
+    font-family: 'Poppins', sans-serif;;
+}
+.theme-color{
+    color: #E76F51;
+}
+/* ------------------Header Section Styles ------------------*/
+.bg-header{
+    background-color: #264653;
+}
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+header p{
+    width: 456px;
+    color: #E0E0E0;
+    font-weight: 300;
+}
+.link-button{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    background-color: #E76F51;
+}
+
+/* ------------------Featured Bikes 2021 Styles ------------------*/
+.grayscale img{
+    filter: grayscale(100%);
+}
+
+/* ------------------Happy Clients Says Styles ------------------*/
+
+
