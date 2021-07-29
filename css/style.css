@@ -1,27 +1,35 @@
 *{
     font-family: 'Poppins', sans-serif;;
 }
-.theme-color{
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+.text-color{
     color: #E76F51;
 }
 /* ------------------Header Section Styles ------------------*/
 .bg-header{
     background-color: #264653;
 }
-h1{
-    font-size: 48px;
-    font-weight: 600;
-}
+
 header p{
-    width: 456px;
     color: #E0E0E0;
     font-weight: 300;
+    padding-right: 100px;
 }
-.link-button{
+.button-modal{
     text-decoration: none;
     color: #fff;
-    padding: 5px 30px;
+    padding: 5px 20px;
     background-color: #E76F51;
+}
+.btn-save-change{
+    background-color: #E76F51;
+    color: #fff;
+}
+.bg-modal{
+    background-color: #fafafa;
 }
 
 /* ------------------Featured Bikes 2021 Styles ------------------*/
@@ -29,6 +37,80 @@ header p{
     filter: grayscale(100%);
 }
 
+
+
+
 /* ------------------Happy Clients Says Styles ------------------*/
 
 
+
+.parallax {
+    /* The image used */
+    background-image: url('img_parallax.jpg');
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+/* .parallax{
+    background-image: url(images/cover);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+
+.bg-brand{
+    background-color: #fafafa;
+}
+
+.line{
+    display: block;
+    position: absolute;
+    top: 100%;
+    overflow: hidden;
+}
+
+hr{
+    height: 100px;
+    width: 100px;
+}
+.brand{
+    vertical-align: middle;
+}
+
+
+.back-to-top{
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+    width: 50px;
+    height: 50px;
+    color: orange;
+    background-color: #fff;
+    text-align: center;
+    line-height: 45px;
+    border-radius: 50%;
+    z-index: 99999;
+    font-size: 34px;
+    cursor: pointer;
+    box-shadow: 0 0 5px rbg(0 0 0 / 50%);
+}
+
+
+
+
+.parallax{
+    background-image: url("images/cover.png");
+    min-height: 100px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
